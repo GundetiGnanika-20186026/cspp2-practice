@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.lang.Math;
 /** code to find quadratic. **/
 final class Solution {
     /**
