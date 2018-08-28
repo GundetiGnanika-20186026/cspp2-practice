@@ -2,9 +2,9 @@ import java.util.Scanner;
 import java.lang.Math;
 /** code to find quadratic. **/
 final class Solution {
-    /*
-    Do not modify this main function.
-    */
+    /**
+      *  Do not modify this main function.
+    **/
     private Solution() { }
     /**
        * @param args this is the constructor.
