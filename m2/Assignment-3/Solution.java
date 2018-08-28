@@ -5,7 +5,6 @@ class Solution {
     Do not modify this main function.
     */
     private Solution() { }
-    
     public static void main(final String[] args) {
 
         Scanner s = new Scanner(System.in);
