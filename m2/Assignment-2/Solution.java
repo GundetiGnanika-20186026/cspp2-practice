@@ -1,10 +1,14 @@
 import java.util.Scanner;
 import java.lang.Math;
-
+/** code to find quadratic. **/
 final class Solution {
 	/*
 	Do not modify this main function.
 	*/
+	private Solution() { }
+	/**
+	   * @param args this is the constructor.
+	**/
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		int a = scan.nextInt();
