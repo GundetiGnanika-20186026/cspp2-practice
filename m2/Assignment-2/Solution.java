@@ -20,7 +20,7 @@ final class Solution {
      * Need to write the rootsOfQuadraticEquation function.
     */
     static double roots(final int a, final int b, final int c) {
-    /** my fuction to calculate roots **/
+    /** my fuction to calculate roots. **/
         double value = (b * b) - (4 * a * c);
         double r1 = (-b + Math.sqrt(value)) / (2 * a);
         double r2 = (-b - Math.sqrt(value)) / (2 * a);
