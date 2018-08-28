@@ -5,6 +5,9 @@ final class Solution {
     Do not modify this main function.
     */
     private Solution() { }
+    /**
+       * @param args this is the constructor.
+    **/
     public static void main(final String[] args) {
 
         Scanner s = new Scanner(System.in);
