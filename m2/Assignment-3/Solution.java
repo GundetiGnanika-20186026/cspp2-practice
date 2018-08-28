@@ -20,6 +20,9 @@ final class Solution {
     Need to write the power function and print the output.
     */
     static long power(final int base, final int exponent) {
+    /**
+     * my fuction to calculate power.
+    **/
         if (exponent == 0) {
             return 1;
         } else {
