@@ -20,7 +20,7 @@ final class Solution {
      * Need to write the rootsOfQuadraticEquation function.
     */
     static double roots(final int a, final int b, final int c) {
-    /** 
+    /**
      * my fuction to calculate roots. 
     **/
         double value = (b * b) - (4 * a * c);
@@ -30,3 +30,5 @@ final class Solution {
         return 0;
     }
 }
+
+
