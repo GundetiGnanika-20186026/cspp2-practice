@@ -4,7 +4,6 @@ final class Solution {
     /**
      * @brief [brief description]
      * @details [long description]
-     * @return [description]
      */
     private Solution() { }
     /**
