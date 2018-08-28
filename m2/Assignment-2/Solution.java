@@ -4,6 +4,7 @@ final class Solution {
     /**
       *  Do not modify this main function.
     **/
+    final static int FOUR = 4;
     private Solution() { }
     /**
        * @param args this is the constructor.
@@ -26,7 +27,7 @@ final class Solution {
     /**
      * my fuction to calculate roots.
     **/
-        double value = (b * b) - (4 * a * c);
+        double value = (b * b) - (FOUR * a * c);
         double r1 = (-b + Math.sqrt(value)) / (2 * a);
         double r2 = (-b - Math.sqrt(value)) / (2 * a);
         System.out.println(r1 + " " + r2);
