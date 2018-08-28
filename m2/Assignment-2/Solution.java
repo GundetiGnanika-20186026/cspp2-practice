@@ -19,6 +19,7 @@ final class Solution {
     * @param a a is a variable
      @param b a is a variable
       @param c a is a variable
+      @return a number
      * Need to write the rootsOfQuadraticEquation function.
     **/
     static double roots(final int a, final int b, final int c) {
