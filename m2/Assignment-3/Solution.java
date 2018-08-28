@@ -1,6 +1,5 @@
 import java.util.Scanner;
-
-public class Solution {
+class Solution {
     /*
     Do not modify this main function.
     */
