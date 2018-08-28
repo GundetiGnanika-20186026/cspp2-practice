@@ -4,10 +4,10 @@ class Solution {
     Do not modify this main function.
     */
     /**
-     * @brief [brief description]
-     * @details [long description]
+     * @brief [brief description].
+     * @details [long description].
      * 
-     * @param String [description]
+     * @param String [description].
      */
     public static void main(final String[] args) {
 
@@ -24,10 +24,10 @@ class Solution {
      * @brief [brief description]
      * @details [long description]
      * 
-     * @param int [base]
-     * @param int [exponent]
+     * @param int [base].
+     * @param int [exponent].
      * 
-     * @return [returning long]
+     * @return [returning long].
      */
     static long power(final int base, final int exponent) {
         if (exponent == 0) {
