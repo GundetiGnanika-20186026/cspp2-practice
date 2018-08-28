@@ -16,8 +16,9 @@ public class Solution {
 	Need to write the rootsOfQuadraticEquation function and print the output.
 	*/
 	static double rootsOfQuadraticEquation(int a,int b, int c) {
-		double r1 = -b +(((Math.sqrt((b*b)-(4*a*c)))/(2*a)));
-        double r2 = -b -(((Math.sqrt((b*b)-(4*a*c)))/(2*a)));
+		double value = (b*b)-(4*a*c);
+		double r1 = -b + Math.sqrt(value)/(2*a);
+        double r2 = -b - Math.sqrt(value)/(2*a);
         System.out.println(r1+" "+r2);
         return 0 ;
 	} 
