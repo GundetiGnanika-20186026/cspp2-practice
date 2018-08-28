@@ -1,6 +1,6 @@
 import java.util.Scanner;
 /** to find the power. **/
-class Solution {
+final class Solution {
     /*
     Do not modify this main function.
     */
