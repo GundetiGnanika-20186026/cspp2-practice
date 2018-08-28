@@ -1,8 +1,10 @@
 import java.util.Scanner;
+/** to find the power. **/
 class Solution {
     /*
     Do not modify this main function.
     */
+    private Solution() { }
     /**
      * @brief [brief description].
      * @details [long description].
