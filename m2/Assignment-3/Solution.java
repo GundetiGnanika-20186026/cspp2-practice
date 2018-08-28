@@ -5,7 +5,7 @@ final class Solution {
      * @brief [brief description]
      * @details [long description]
      */
-    private Solution() {}
+    private Solution() { }
     /**
        * @param args this is the constructor.
     **/
