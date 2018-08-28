@@ -14,12 +14,12 @@ final class Solution {
 		int a = scan.nextInt();
 		int b = scan.nextInt();
 		int c = scan.nextInt();
-		rootsOfQuadraticEquation(a, b, c);
+		roots(a, b, c);
 	}
 	/*
-	Need to write the rootsOfQuadraticEquation function and print the output.
+	Need to write the rootsOfQuadraticEquation function.
 	*/
-	static double rootsOfQuadraticEquation(final int a, final int b, final int c) {
+	static double roots(final int a, final int b, final int c) {
 		double value = (b * b) - (4 * a * c);
 		double r1 = (-b + Math.sqrt(value)) / (2 * a);
         double r2 = (-b - Math.sqrt(value)) / (2 * a);
