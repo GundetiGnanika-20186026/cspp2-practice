@@ -17,8 +17,8 @@ public class Solution {
 	*/
 	static double rootsOfQuadraticEquation(int a,int b, int c) {
 		double value = (b * b)-(4 * a * c);
-		double r1 = -b + Math.sqrt(value)/(2 * a);
-        double r2 = -b - Math.sqrt(value)/(2 * a);
+		double r1 = (-b + Math.sqrt(value))/(2 * a);
+        double r2 = (-b - Math.sqrt(value))/(2 * a);
         System.out.println(r1+" "+r2);
         return 0 ;
 	} 
