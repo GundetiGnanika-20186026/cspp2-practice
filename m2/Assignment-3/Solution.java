@@ -19,6 +19,11 @@ final class Solution {
     /*
     Need to write the power function and print the output.
     */
+    /**
+    * @param base a is a variable
+      @param exponent a is a variable
+      @return a number
+    **/
     static long power(final int base, final int exponent) {
     /**
      * my fuction to calculate power.
