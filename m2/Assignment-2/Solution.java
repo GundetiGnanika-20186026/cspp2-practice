@@ -26,7 +26,7 @@ final class Solution {
     /**
      * my fuction to calculate roots.
     **/
-    final int four =4;
+    final int four = 4;
         double value = (b * b) - (four * a * c);
         double r1 = (-b + Math.sqrt(value)) / (2 * a);
         double r2 = (-b - Math.sqrt(value)) / (2 * a);
