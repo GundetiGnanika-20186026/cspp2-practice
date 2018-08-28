@@ -4,6 +4,11 @@ final class Solution {
     /*
     Do not modify this main function.
     */
+    /**
+     * @brief [brief description]
+     * @details [long description]
+     * @return [description]
+     */
     private Solution() { }
     /**
        * @param args this is the constructor.
