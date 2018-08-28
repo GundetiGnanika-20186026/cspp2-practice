@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.lang.Math;
 
 public class Solution {
 	/*
@@ -9,10 +10,16 @@ public class Solution {
 		int a = scan.nextInt();
 		int b = scan.nextInt();
 		int c = scan.nextInt();
-		System.out.println("000");
-		// rootsOfQuadraticEquation(a, b, c);
+		rootsOfQuadraticEquation(a, b, c);
 	}
 	/*
 	Need to write the rootsOfQuadraticEquation function and print the output.
 	*/
+	static double rootsOfQuadraticEquation(int a,int b, int c) {
+		double r1 = -b +((Math.sqrt((b*b)-(4*a*c))/(2*a)));
+        double r2 = -b -((Math.sqrt((b*b)-(4*a*c))/(2*a)));
+        System.out.println("the first root is: "+r1);
+        System.out.println("the second root is: "+r2);
+        return 0 ;
+	} 
 }
