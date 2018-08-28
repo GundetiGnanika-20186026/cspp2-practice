@@ -5,12 +5,7 @@ class Solution {
     Do not modify this main function.
     */
     private Solution() { }
-    /**
-     * @brief [brief description].
-     * @details [long description].
-     * 
-     * @param String [description].
-     */
+    
     public static void main(final String[] args) {
 
         Scanner s = new Scanner(System.in);
@@ -22,15 +17,6 @@ class Solution {
     /*
     Need to write the power function and print the output.
     */
-    /**
-     * @brief [brief description]
-     * @details [long description]
-     * 
-     * @param int [base].
-     * @param int [exponent].
-     * 
-     * @return [returning long].
-     */
     static long power(final int base, final int exponent) {
         if (exponent == 0) {
             return 1;
