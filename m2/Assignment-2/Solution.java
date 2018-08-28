@@ -24,6 +24,6 @@ final class Solution {
 		double r1 = (-b + Math.sqrt(value))/(2 * a);
         double r2 = (-b - Math.sqrt(value))/(2 * a);
         System.out.println(r1+" "+r2);
-        return 0 ;
+        return 0;
 	} 
 }
