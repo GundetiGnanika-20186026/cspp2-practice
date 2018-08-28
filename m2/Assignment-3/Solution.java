@@ -14,6 +14,15 @@ class Solution {
     /*
     Need to write the power function and print the output.
     */
+    /**
+     * @brief [brief description]
+     * @details [long description]
+     * 
+     * @param int [base]
+     * @param int [exponent]
+     * 
+     * @return [returning long]
+     */
     static long power(final int base, final int exponent) {
         if (exponent == 0) {
             return 1;
