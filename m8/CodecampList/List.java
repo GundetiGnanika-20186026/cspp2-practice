@@ -154,7 +154,10 @@ public class List {
      */
     public int get(int index) {
         // Replace the code below to write the code for get
-        return list[index];
+        if (list[index] != 0) {
+            System.out.println(list[index]);
+        }
+        return -1;
         
     }
 
@@ -209,7 +212,7 @@ public class List {
      * or -1 if this list does not contain the element.
      */
     public int indexOf(int item) {
-        for(int i=0;i<size;i++) {
+        for(int i = 0; i < size;i++) {
             if (list[i] == item){
                 return i;
             }
@@ -253,7 +256,7 @@ public class List {
                 System.out.println(l.indexOf(Integer.parseInt(tokens[1])));
                 break;
                 case "get":
-                System.out.println(l.get(Integer.parseInt(tokens[1])));
+                l.get(Integer.parseInt(tokens[1]));
                 break;
                 case "contains":
                 System.out.println(l.contains(Integer.parseInt(tokens[1])));
