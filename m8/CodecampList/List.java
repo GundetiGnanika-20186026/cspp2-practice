@@ -99,6 +99,9 @@ public class List {
      *
      * The method returns void (nothing)
      */
+    /**
+     * @param item [adding item to the list]
+     */
     public void add(final int item) {
         //Inserts the specified element at the end of the list.
         list[size] = item;
@@ -111,6 +114,9 @@ public class List {
      * to the objects outside the list
      *
      * The method returns an int. Empty list should return 0.
+     */
+    /**
+     * @return [returning size]
      */
     public int size() {
         // replace the code below to implement the size method
@@ -137,6 +143,9 @@ public class List {
      * array = [1,3,0,0,0,0,0,0,0,0]
      * The method returns void (nothing)
      */
+    /** 
+     * @param index [removing the item from list]
+     */
     public void remove(final int index) {
         // write the logic for remove here.
         // Think about what to do to the size variable.
@@ -161,6 +170,10 @@ public class List {
      * in the list then that would mean the item doesn't exist.
      * How do we check if the position is greater than the
      * number of items in the list? Would size variable be useful?
+     */
+    /**
+     * @param index [getting the value of index]
+     * @return [returning -1]
      */
     public int get(final int index) {
         // Replace the code below to write the code for get
@@ -191,6 +204,9 @@ public class List {
      * not all the elements of the array.
      *
      */
+    /**
+     * @return [returning a string]
+     */
     public String toString() {
         // Replace the code below
         String result = "[";
@@ -206,6 +222,10 @@ public class List {
      * the item passed as an argument to the method
      * So, iterate through the list and return true if
      * the item exists and otherwise false
+     */
+    /** 
+     * @param item [checking wether item is present in list]
+     * @return [returning a boolen ]
      */
     public boolean contains(final int item) {
         for (int i = 0; i < size; i++) {
