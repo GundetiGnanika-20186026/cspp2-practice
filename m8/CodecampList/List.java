@@ -143,7 +143,7 @@ public class List {
      * array = [1,3,0,0,0,0,0,0,0,0]
      * The method returns void (nothing)
      */
-    /** 
+    /**
      * @param index [removing the item from list]
      */
     public void remove(final int index) {
@@ -223,7 +223,7 @@ public class List {
      * So, iterate through the list and return true if
      * the item exists and otherwise false
      */
-    /** 
+    /**
      * @param item [checking wether item is present in list]
      * @return [returning a boolen ]
      */
@@ -241,6 +241,10 @@ public class List {
      * of the specified element in this list,
      * or -1 if this list does not contain the element.
      */
+    /**
+     * @param item [finding the index of given item]
+     * @return [returning the integer]
+     */
     public int indexOf(final int item) {
         for (int i = 0; i < size; i++) {
             if (list[i] == item) {
@@ -249,7 +253,7 @@ public class List {
         }
         return -1;
     }
-    /** 
+    /**
      * @param args [description]
      */
     public static void main(final String[] args) {
