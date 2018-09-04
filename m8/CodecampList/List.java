@@ -72,7 +72,8 @@ public class List {
         // How many items do we have in the list when you create it?
         // An empty list has how many items?
         // That is the initial value to use for size.
-        list = new int[10];
+        final int ten = 10;
+        list = new int[ten];
         size = 0;
 
 
@@ -92,7 +93,7 @@ public class List {
     public void add(final int item) {
         //Inserts the specified element at the end of the list.
         list[size] = item;
-        size ++;
+        size++;
     }
 
     /*
@@ -135,7 +136,7 @@ public class List {
                 list[i] = list[i + 1];
             }
             list[size] = 0;
-            size --;
+            size--;
         } else {
             System.out.println("Invalid Position Exception");
         }
