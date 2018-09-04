@@ -1,9 +1,9 @@
 import java.io.BufferedInputStream;
 import java.util.Scanner;
-
+/**
+ * Implement all the methods mentioned to build a ListADT.
+ */
 public class List {
-    //Implement all the methods mentioned to build a ListADT
-
     /*
      * The goal for the list is to store items.
      * How are we going to store the items in the list?
